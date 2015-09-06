@@ -3,6 +3,7 @@ package com.example.nauman.signuptest;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -13,7 +14,7 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     public void handleSignup(View view) {
         EditText emailView = (EditText) findViewById(R.id.signUpEmail);
