@@ -36,11 +36,11 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ParseUser user = ParseUser.getCurrentUser();
-        if(user != null) {
-            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-            startActivity(intent);
-        }
+//        ParseUser user = ParseUser.getCurrentUser();
+//        if(user != null) {
+//            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+//            startActivity(intent);
+//        }
     }
 
     @Override
